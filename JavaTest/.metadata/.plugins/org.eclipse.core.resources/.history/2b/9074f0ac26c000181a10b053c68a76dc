@@ -1,0 +1,9 @@
+package com.T.JavaTest.Assignment;
+
+public interface Player {
+	
+	public void sendMessage();
+	
+	public String receiveMessage();
+
+}

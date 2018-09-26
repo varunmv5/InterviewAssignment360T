@@ -1,0 +1,19 @@
+package com.T.JavaTest.Assignment;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Player1 p1 = new Player1();
+        Player2 p2 = new Player2();
+        String mesg = "abc";
+        for(int i=0; i<10; i++)
+        {
+          String temp;
+          p1.sendMessage(p2.msg,i);
+          System.out.println(p1.receiveMessage());
+          temp = p1.receiveMessage();
+          p2.sendMessage(temp,i);
+        }       
+    }
+}

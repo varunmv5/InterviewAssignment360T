@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package com.T.JavaTest.Assignment;
+
+/**
+ * @author VARUN V
+ *
+ */
+public class Player1 implements Player {
+
+	/* (non-Javadoc)
+	 * @see com.T.JavaTest.Assignment.Player#sendMessage()
+	  
+	 */
+	public Player1(String msg)
+	{
+		return this.msg = msg;
+	}
+	String msg;
+	public void sendMessage(String msg) {
+		// TODO Auto-generated method stub
+
+	}
+
+	/* (non-Javadoc)
+	 * @see com.T.JavaTest.Assignment.Player#receiveMessage()
+	 */
+	public String receiveMessage() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

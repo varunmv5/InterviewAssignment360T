@@ -1,0 +1,5 @@
+package com.T.JavaTest.Assignment;
+
+public interface Player {
+
+}

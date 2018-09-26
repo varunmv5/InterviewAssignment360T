@@ -1,0 +1,12 @@
+package com.T.JavaTest.Assignment;
+
+public interface Player {
+	
+	public void sendMessage(String msg,int counter);
+	
+	public String receiveMessage();
+	
+	static int counter = 0;
+	
+
+}
